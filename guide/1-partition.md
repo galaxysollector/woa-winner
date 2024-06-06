@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-winner/blob/main/winner.png" width="350" alt="Windows 11 running on winner">
 
-# Running Windows on the SAMSUNG GALAXY FOLD SM-F900F
+# Running Windows on the SAMSUNG GALAXY FOLD SM-F907N
 
 ## Partitioning your device
 
@@ -9,9 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Modded TWRP](https://github.com/n00b69/woa-winner/releases/tag/Recovery)
-
-- [Parted](https://github.com/n00b69/woa-beryllium/releases/download/Files/parted)
+- [Modded TWRP](https://github.com/galaxysollector/woa-winner/releases/tag/Recovery)
 
 
 ### Notes
