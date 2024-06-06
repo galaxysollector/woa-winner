@@ -31,7 +31,7 @@ Go to TWRP > Mount > and unmount all partitions
 #### Running parted
 > Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb push parted /sbin && adb shell "chmod +x /sbin/parted" && adb shell /sbin/parted /dev/block/sda
+adb shell /sbin/parted /dev/block/sda
 ```
 
 #### Printing the current partition table
@@ -41,41 +41,41 @@ print
 ```
 
 #### Removing userdata
-> Replace **$** with the number of the **userdata** partition, which should be **30**
+> Replace **$** with the number of the **userdata** partition, which should be **34**
 ```cmd
 rm $
 ```
 
 #### Creating ESP partition
 ```cmd
-mkpart esp fat32 9730MB 10.2GB
+mkpart esp fat32 11.7GB 12GB
 ```
 
 #### Creating Windows partition
-> Replace **300GB** with the value you want to be allocated to Windows
+> Replace **312GB** with the value you want to be allocated to Windows
 ```cmd
-mkpart win ntfs 10.2GB 300GB
+mkpart win ntfs 12GB 312GB
 ```
 
 #### Creating WinPE partition
 > [!Note]
 > This is optional
 
-> Replace **300GB** with the end value of Windows
+> Replace **312GB** with the end value of Windows
 >
 > Replace **325GB** with the end value you want WinPE to have
 ```cmd
-mkpart pe fat32 300GB 325GB
+mkpart pe fat32 312GB 325GB
 ```
 
 #### Recreating userdata
-> Replace **300GB** with the end value of the Windows or WinPE partition you created above
+> Replace **312GB** with the end value of the Windows or WinPE partition you created above
 ```cmd
-mkpart userdata ext4 300GB 512GB
+mkpart userdata ext4 312GB 512GB
 ```
 
 #### Make ESP bootable
-> Replace **$** with the number of the **ESP** partition, which should be **30**
+> Replace **$** with the number of the **ESP** partition, which should be **34**
 ```cmd
 set $ esp on
 ```
@@ -86,7 +86,7 @@ quit
 ```
 
 #### Format data
-Go to the Wipe menu and press Format Data, 
+Reboot to recovery, go to the Wipe menu and press Format Data, 
 then type `yes`.
 
 ### Check if Android still starts
