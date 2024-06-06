@@ -52,7 +52,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 
 
 ### Install Galaxy Z Fold2 5G Wallpapers
-- [wallpaper-res.apk](https://drive.google.com/file/d/1HJGFBkITmZcYsTL-I19kHSGUviAizPr5/view?usp=sharing)
+- [wallpaper-res.apk](https://github.com/galaxysollector/woa-winnerx/releases/download/Files/wallpaper-res.apk)
 
 - Boot to recovery
 
