@@ -7,11 +7,11 @@
 ### Prerequisites
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [UEFI image](https://github.com/n00b69/woa-winner/releases/tag/UEFI) 
+- [UEFI image](https://github.com/galaxysollector/woa-winner/releases/tag/UEFI) 
 
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
-- [Switch To Android package](https://github.com/n00b69/woa-winner/releases/download/Files/winner-sta.zip)
+- [Switch To Android package](https://github.com/galaxysollector/woa-winner/releases/download/Files/winner-sta.zip)
 
 ## Dualboot guide
 This guide assumes you are rooted, if you aren't, please do that first.
