@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-winner/blob/main/winner.png" width="350" alt="Windows 11 running on winner">
 
-# Running Windows on the SAMSUNG GALAXY FOLD SM-F907N
+# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
 
 ## Partitioning your device
 
