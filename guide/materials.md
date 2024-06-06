@@ -39,7 +39,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 
 #### Finished!
 
-## Run Samsung DEX directly in your phone's display
+### Run Samsung DEX directly in your phone's display
 - Boot to recovery
 
 - Go to TWRP settings and mount Vendor, System
@@ -51,7 +51,7 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 #### Finished!
 
 
-## Install Galaxy Z Fold2 5G Wallpapers
+### Install Galaxy Z Fold2 5G Wallpapers
 - [wallpaper-res.apk](https://drive.google.com/file/d/1HJGFBkITmZcYsTL-I19kHSGUviAizPr5/view?usp=sharing)
 
 - Boot to recovery
