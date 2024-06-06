@@ -1,17 +1,15 @@
 <img align="right" src="https://github.com/n00b69/woa-winner/blob/main/winner.png" width="350" alt="Windows 11 running on winner">
 
-# Running Windows on the SAMSUNG GALAXY FOLD SM-F900F
+# Running Windows on the SAMSUNG GALAXY FOLD SM-F907N
 
 ## Installation
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
 
-- [Gdisk](https://github.com/n00b69/woa-winner/releases/tag/Gdisk)
+- [Gdisk](https://github.com/galaxysollector/woa-winner/releases/tag/Gdisk)
 
-- [Drivers](https://github.com/n00b69/woa-winner/releases/tag/Drivers)
-
-- [Modded TWRP](https://github.com/n00b69/woa-winner/releases/tag/Recovery) (should already be installed)
+- [Modded TWRP](https://github.com/galaxysollector/woa-winner/releases/tag/Recovery) (should already be installed)
 
 ### Reboot to TWRP
 > Disable MTP in TWRP
@@ -81,14 +79,14 @@ lis par
 ```
 
 ### Selecting the ESP partition
-> Replace $ with the partition number of ESP (should be 30)
+> Replace $ with the partition number of ESP (should be 34)
 ```cmd
 sel par $
 ```
 
 #### Formatting ESP drive
 ```cmd
-format quick fs=fat32 label="ESPWINNER"
+format quick fs=fat32 label="ESPWINNERX"
 ```
 
 #### Add letter to ESP
@@ -97,14 +95,14 @@ assign letter y
 ```
 
 ### Selecting the Windows partition
-> Replace $ with the partition number of Windows (should be 31)
+> Replace $ with the partition number of Windows (should be 35)
 ```cmd
 sel par $
 ```
 
 #### Formatting Windows drive
 ```cmd
-format quick fs=ntfs label="WINWINNER"
+format quick fs=ntfs label="WINWINNERX"
 ```
 
 #### Add letter to Windows
@@ -115,7 +113,7 @@ assign letter x
 ### Selecting the WinPE partition
 > Skip this step if you are not using WinPE
 > 
-> Replace $ with the partition number of WinPE (should be 32)
+> Replace $ with the partition number of WinPE (should be 36)
 ```cmd
 sel par $
 ```
@@ -144,12 +142,23 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
-#### Installing drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
+#### Load Registry Hives
+```cmd
+reg load HKLM\OFFLINE R:\Windows\System32\Config\System
+```
 
-> If it asks you to enter a letter, enter the drive letter of **WINWINNER** (which should be X), then press enter
+#### Open Registry Editor
+```cmd
+regedit
+```
 
-> If any errors appear under **Installing App Packages**, ignore them and continue
+#### Make USB usable
+> In HKEY_LOCAL_MACHINE/OFFLINE/ControlSet001/Control/USB/OsDefaultRoleSwitchMode change value to 1
+> 
+> After, in the command line of your PC, enter
+```cmd
+reg unload HKLM\OFFLINE
+```
 
 #### Create Windows bootloader files
 ```cmd
