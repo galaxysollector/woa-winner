@@ -21,7 +21,7 @@ This guide assumes you are rooted, if you aren't, please do that first.
 - Open the settings inside the app and uncheck `Back up boot.img if none is detected (Windows)` (this feature does not work on the Galaxy Fold due to no mount support).
 - Download the **UEFI** image and place it inside the folder named `UEFI` in your internal storage.
 - Press the `BACK UP BOOT IMAGE` button, then select `Android`.
-- Create a folder called `sta` in your internal storage and unpack the two files from `winner-sta.zip` file here.
+- Create a folder called `sta` in your internal storage and unpack the two files from `winnerx-sta.zip` file here.
 - Reboot to TWRP and mount **Windows** if it isn't already mounted.
 - Move/copy the **sta** folder and the **boot.img** file from your internal storage to `/win` in the root of your device's storage.
 - Flash the **UEFI** in `/sdcard/UEFI` to the boot partition to boot to Windows.
