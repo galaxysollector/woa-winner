@@ -7,9 +7,9 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
 
-- [Gdisk](https://github.com/galaxysollector/woa-winner/releases/tag/Gdisk)
+- [Gdisk](https://github.com/galaxysollector/woa-winnerx/releases/tag/Gdisk)
 
-- [Modded TWRP](https://github.com/galaxysollector/woa-winner/releases/tag/Recovery) (should already be installed)
+- [Modded TWRP](https://github.com/galaxysollector/woa-winnerx/releases/tag/Recovery) (should already be installed)
 
 ### Reboot to TWRP
 > Disable MTP in TWRP
