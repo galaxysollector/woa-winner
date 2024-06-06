@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-winner/blob/main/winner.png" width="350" alt="Windows 11 running on winner">
 
-# Running Windows on the SAMSUNG GALAXY FOLD SM-F900F
+# Running Windows on the SAMSUNG GALAXY FOLD SM-F907N
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woa_msmnile_issues)
 
 > [!Warning]
@@ -41,6 +41,7 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/12375593?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Ost268)
+[<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 
 
 
