@@ -29,7 +29,6 @@
 Go to TWRP > Mount > and unmount all partitions
 
 #### Running parted
-> Download the parted file and move it in the platform-tools folder, then run
 ```cmd
 adb shell /sbin/parted /dev/block/sda
 ```
