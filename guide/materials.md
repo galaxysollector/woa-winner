@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/n00b69/woa-winner/blob/main/winner.png" width="350" alt="Windows 11 running on winner">
 
-# Running Windows on the SAMSUNG GALAXY FOLD SM-F900F
+# Running Windows on the SAMSUNG GALAXY FOLD SM-F907N
 
 ## Additional materials
 > Below you will find a list of tweaks and materials for Windows on your ARM device
@@ -25,14 +25,6 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 
 #### Finished!
 
-### Toggling USB host mode
-> [!Warning]
-> Disable USB host mode if you use a poweref USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
-
-Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode, confirm that you want to disable/enable USB host mode and then confirm the reboot
-
-#### Finished!
-
 ### Install Microsoft Office / Microsoft 365
 - Download this [ISO file](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) to the tablet
 - Right-click on the iso file and select Mount to open it in explorer
@@ -44,6 +36,29 @@ Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/re
 
 ### Activate Windows / Office
 Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+#### Finished!
+
+## Run Samsung DEX directly in your phone's display
+- Boot to recovery
+
+- Go to TWRP settings and mount Vendor, System
+
+- ```adb shell```
+
+- ```sed -i s/dual,wireless,dexforpc/dual,standalone,wireless,dexforpc/g /vendor/etc/floating_feature.xml && sed -i s/dual,wireless,dexforpc/dual,standalone,wireless,dexforpc/g /system_root/system/etc/floating_feature.xml```
+
+#### Finished!
+
+
+## Install Galaxy Z Fold2 5G Wallpapers
+- [wallpaper-res.apk](https://drive.google.com/file/d/1HJGFBkITmZcYsTL-I19kHSGUviAizPr5/view?usp=sharing)
+
+- Boot to recovery
+
+- Go to TWRP settings and mount System
+
+- ```adb push path\to\wallpaper-res.apk /system/priv-app/wallpaper-res```
 
 #### Finished!
 
