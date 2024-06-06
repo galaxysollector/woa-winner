@@ -53,6 +53,3 @@ This guide assumes you are rooted, if you aren't, please do that first.
 
 
 
-### Enabling USB host mode
-> Without this, unpowered USB devices will not work
-- Download [this script](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) and run it. Select "Enable USB host mode", then reboot your Galaxy Fold.
