@@ -49,7 +49,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 #### Load Registry Hives
 ```cmd
-reg load HKLM\OFFLINE R:\Windows\System32\Config\System
+reg load HKLM\OFFLINE X:\Windows\System32\Config\System
 ```
 
 #### Open Registry Editor
