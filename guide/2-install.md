@@ -174,6 +174,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 ```
+- [Removing recovery/disk checking in Windows](https://github.com/Project-Silicium/WoA-Guides/blob/main/Mu-Qcom/Vendors/Samsung/remove-win-recovery-disk-checking.md)
 
 #### Disabling integrity checks
 ```cmd
