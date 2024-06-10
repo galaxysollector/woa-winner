@@ -94,7 +94,7 @@ Unfortunately even if you disable these options with BCD policies, in some cases
 
 ## Enable mass storage mode (Step 1)
 
-To remove these Windows features, you need to put your device in [mass storage mode](../../README.md#device-guides). <br />
+To remove these Windows features, you need to put your device in [mass storage mode](#entering-mass-storage-mode). <br />
 If you haven't already, follow Mass Storage Guide for your Device and enable it.<br />
 
 ## Remove Windows recovery (Step 2)
