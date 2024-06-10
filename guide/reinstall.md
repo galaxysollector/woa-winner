@@ -69,7 +69,6 @@ reg unload HKLM\OFFLINE
 
 #### Remove Windows recovery (Step 1)
 
-After you enabled mass storage mode and connected your device to a Windows computer, <br />
 In File Explorer delete this file: <br />
 ```
 # Replace W with your device Win partition letter
