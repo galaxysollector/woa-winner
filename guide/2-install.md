@@ -201,14 +201,6 @@ In File Explorer delete this file: <br />
 W:\Windows\System32\Recovery\WinRE.wim
 ```
 
-<br />
-If your Windows installation has booted before, delete this directory: <br />
-
-```
-# Replace W with your device Win partition letter
-W:\Recovery
-```
-
 #### Remove autochk executable (Step 2)
 
 Now we need to remove autochk.exe executable so that Windows wouldn't be able to perform disk checking/fixing procedure on startup. <br />
