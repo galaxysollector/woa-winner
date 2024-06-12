@@ -39,7 +39,7 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/12375593?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Ost268)
-[<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
+[<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 
 
 
